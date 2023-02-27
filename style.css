@@ -1,22 +1,77 @@
+body {
+    background-image: url("./recipes/images.png");
+    background-size: cover;;
+
+  }
 
 .link{
-    size: 20cap;
-
+    display: block;
+    text-align: center;
+    margin-top: 25%;
+}
+.back{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
 }
 .ch1{
-
+margin-bottom: 10%;
 text-align: center;
-color: aqua;
+color: aliceblue;
 }
 
-.ch2{
+.au1{
+    position: relative;
+  display: inline-block;
+}
 
+audio {
+  display: none;
+}
+
+.audio-player {
+    position: relative;
+    display: inline-block;
+  }
+  
+  audio {
+    display: none;
+  }
+  
+  .play-pause-button {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    box-sizing: border-box;
+  }
+
+.ch2{
+    margin-bottom: 10%;
     text-align: center;
+    color: aliceblue;
     
 }
 .ch3{
-
+    margin-bottom: 10%;
     text-align: center;
+    color: aliceblue;
+    color:white;
     
 }
+.audio{
+    text-align: center;
 
+}
+
+  audio::-webkit-media-controls-enclosure {
+    background-color: wheat;;
+  }
+  
