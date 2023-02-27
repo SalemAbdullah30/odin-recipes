@@ -3,12 +3,15 @@ body {
     background-size: cover;;
 
   }
-
 .link{
     display: block;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 38.5%;
 }
+/* .me{
+    max-width: 5%;
+    max-height: 4px;
+} */
 .back{
     display: block;
     text-align: center;
@@ -49,7 +52,7 @@ audio {
   
 .audio-player {
     position: absolute;
-    top: 28%;
+    top: 90%;
     left: 55%;
     transform: translate(-50%, -50%);
     padding: 10px 20px;
